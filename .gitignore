@@ -1,0 +1,4 @@
+.idea/
+nbproject/*
+nbproject/private/*
+app/config/development/db.php
