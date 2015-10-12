@@ -1,4 +1,5 @@
 .idea/
 nbproject/*
 nbproject/private/*
-app/config/development/db.php
+fuel/app/config/development/db.php
+fuel/app/logs
