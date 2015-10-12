@@ -1,0 +1,6 @@
+[submodule "fuel/core"]
+	path = fuel/core
+	url = https://github.com/fuel/core.git
+[submodule "fuel/app/modules/eshop"]
+	path = fuel/app/modules/eshop
+	url = https://github.com/petrf89/eshop.git
