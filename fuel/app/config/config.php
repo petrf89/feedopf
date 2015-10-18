@@ -238,7 +238,8 @@ return array(
 	 * Paths MUST end with a directory separator (the DS constant)!
 	 */
 	 'module_paths' => array(
-	 	MODULESPATH . DS
+         APPPATH.'modules'.DS,
+         MODULESPATH.DS
 	 ),
 
 	/**
@@ -271,6 +272,7 @@ return array(
 		 */
 		// 'packages'  => array(
 		// 	//'orm',
+            //'cart',
 		// ),
 
 		/**
@@ -281,7 +283,7 @@ return array(
 		 *
 		 * A path must be set in module_paths for this to work.
 		 */
-		// 'modules'  => array(),
+		 'modules'  => array('eshop'),
 
 		/**
 		 * Classes to autoload & initialize even when not used

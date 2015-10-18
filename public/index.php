@@ -39,7 +39,7 @@ define('COREPATH', realpath(__DIR__.'/../fuel/core/').DIRECTORY_SEPARATOR);
 /**
  * The path to own submodules
  */
-define('MODULESPATH', realpath(__DIR__ . '/../app/') . DIRECTORY_SEPARATOR . 'modules');
+define('MODULESPATH', realpath(__DIR__.'/../app/').DIRECTORY_SEPARATOR.'modules');
 
 
 // Get the start time and memory for use later

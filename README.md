@@ -1,3 +1,15 @@
+
+Install instructuons
+
+git submodule init
+git submodule update
+php composer.phar self-update
+php composer.phar update
+
+
+
+
+
 #FuelPHP
 
 * Version: 1.7.2
